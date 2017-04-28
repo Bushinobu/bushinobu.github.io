@@ -1,0 +1,134 @@
+/*^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v
+These Are Your Fonts
+^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v*/
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+/*^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v
+Base Styles
+^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v*/
+
+body {
+    background-color: #e7e7e7;
+}
+
+.header-main {
+    background-image: url(images/header-background.png);
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Indie Flower';
+    margin-top: -150px;  
+}
+
+.header-article {
+    font-family: 'Indie Flower';
+    margin-top: -30px;  
+}
+
+.header-article h1 {
+    text-align: center;
+    padding: 0px;
+    font-size: 60px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.header-main h1 {
+    text-align: center;
+    padding: 200px 0px 30px 0px;
+    font-size: 200px;
+}
+
+/* Should you animate the "Minor Concerns" site name with CSS or make an animated gif? What are the performance benefits of this, run tests & compare*/
+
+/*^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v
+Navigation Menu Styles
+^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v*/
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Indie Flower';
+    font-size: 30px;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 98%;
+    margin: 0px 30px;
+    position: relative;
+}
+
+/*^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v
+Article Page Styles
+^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v*/
+
+.article-image {
+    max-width: 600px;
+    height: 800px;
+    padding-right: 100px;
+}
+
+.article-section {
+    display: flex;
+}
+
+.article-section p {
+    max-width: 100%;
+}
+
+/*^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v
+River RIP Joan Styles
+^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v*/
+
+.river {
+	display: flex;
+	justify-content: center;
+    margin-top: 50px;
+    text-align: center
+}
+.river-article {
+	display: flex;
+	justify-content: space-between;
+    flex-direction: column;
+    width: 98%;
+    text-align: center;
+    padding: 20px;
+}
+
+.river-article img {
+    justify-content: center;
+}
+
+.river img {
+    max-height: 400px;
+    width: 300px;
+    text-align: center;
+}
+
+.otis {
+    width: 300px;
+    height: 400px;
+}
+
+/*^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v
+Ad Styling
+^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v*/
+hr {
+    height: 90px;
+    width: 728px;
+    background-color: #027521;
+    
+    text-align: center;
+}
+
+#ad {
+    display: block;
+    text-align: center;
+}
