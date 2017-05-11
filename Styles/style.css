@@ -214,11 +214,14 @@ nav {
     z-index: 1000;
     top: 0;
     text-align: center;
-    background-color: #f3d09c;
+    background-color: #4a94ef;
     width: 100%;
     overflow: visible;
-    transition: 2s ease-in-out;
-    
+    transition: 700ms ease-in-out;
+}
+
+.hai-scroll {
+
 }
 
 /*^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v
