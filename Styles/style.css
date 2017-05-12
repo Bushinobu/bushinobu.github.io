@@ -312,6 +312,15 @@ River Styles
     padding: 0% 0% 2% 25%;
     margin-top: -9%;
 }
+.ad-mobile {
+    display: none;
+    text-align: center;
+    height: 55px;
+    width: 320px;
+    padding: 0% 0% 2% 25%;
+    margin-top: -9%;
+    visibility: hidden;
+}
 }
 
 
@@ -496,6 +505,14 @@ header {
     padding: 0%;
     margin-top: -9%;
     visibility: hidden;
+}
+.ad-mobile {
+    display: inline-block;
+    text-align: center;
+    height: 55px;
+    width: 320px;
+    padding: 0% 0% 2% 25%;
+    margin-top: -9%;
 }
 }
 
