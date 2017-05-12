@@ -302,7 +302,16 @@ River Styles
 	flex-wrap: wrap;
 	justify-content: space-between;
     margin-top: 50px;
+    text-align: center;}
+/*Desktop Ad Styling*/
+*/.ad-desktop {
+    display: inline-block;
     text-align: center;
+    height: 90px;
+    width: 970px;
+    padding: 0% 0% 2% 25%;
+    margin-top: -9%;
+}*/
 }
 
 
@@ -478,16 +487,16 @@ header {
 .article-content {
     width: 100%;
 }
-}
-
-
-/*^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v
-Ad Styling
-^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v^v*/
-
-.ad {
-    display: block;
+/*Ad Stylings*/
+/*.ad-desktop {
+    display: none;
     text-align: center;
-    height: 90px;
-    width: 970px;
+    height: 1px;
+    width: 1px;
+    padding: 0%;
+    margin-top: -9%;
+    visibility: hidden;
+}*/
 }
+
+
